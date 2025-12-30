@@ -47,8 +47,8 @@ const products = [
     price: 249,
     categories: ["bedside lamps", "brass finish", "modern design"],
     images: {
-      day: "./assets/lamps/bed-lamp-day.png",
-      night: "./assets/lamps/bed-lamp-night.png",
+      day: "./assets/lamps/bed-lamp-day.webp",
+      night: "./assets/lamps/bed-lamp-night.webp",
     },
   },
   {
@@ -57,8 +57,8 @@ const products = [
     price: 499,
     categories: ["desk lamps", "reading lamps", "elegant design", "adjustable"],
     images: {
-      day: "./assets/lamps/reading-lamp-day.png",
-      night: "./assets/lamps/reading-lamp-night.png",
+      day: "./assets/lamps/reading-lamp-day.webp",
+      night: "./assets/lamps/reading-lamp-night.webp",
     },
   },
   {
