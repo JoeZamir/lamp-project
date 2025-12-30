@@ -1,0 +1,11 @@
+    ### Ideas to build later
+
+Shop
+  ├─ Pendants
+  ├─ Table Lamps
+  ├─ Floor Lamps
+  ├─ Wall Lighting
+  ├─ Statement Pieces
+Collections
+Rooms
+About

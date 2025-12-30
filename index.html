@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Ecommerce</title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Google Fonts -->
+    <!-- Always include these two first -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body class="theme-dark lamp-on">
+    <!-- Navigation Bar -->
+    <div class="nav-container">
+        <header class="nav-header">
+          <div class="brand">
+            <img
+              src="assets/lamplogonobg.png"
+              alt="Luminas logo"
+              width="40"
+              height="40"
+            >
+            <div class="brand-title">Luminas</div>
+          </div>
+
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-icon">🌙</span>
+          </button>
+
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            ☰
+          </button>
+
+          <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+      </div>
+    <main>
+        <section class="hero">
+            <div id="divider">
+                <div class="hero-text">
+                    <h1>Illuminate Your World with <span style="color: var(--accent-primary);">Luminas</span></h1>
+                    <p>Discover our exclusive collection of designer lamps that blend style and functionality.</p>
+                    <a href="#products" class="cta button glow">Shop Now</a>
+                </div>
+                <div class="lamp">
+                    <img src="assets/lamplogonobg.png" alt="Stylish Lamp">
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <h2>Our <span style="color: var(--accent-primary);">Collection</span></h2>
+            <div class="product-grid">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About <span style="color: var(--accent-primary);">Luminas</span></h2>
+            <div class="about-container">
+                <img src="assets/about-lamp.jpg" alt="Sculptural designer lamp" class="about-image">
+                <p>Luminas is dedicated to providing high-quality, stylish lighting solutions that enhance any space. Our mission is to combine aesthetics with functionality to create lamps that not only illuminate but also inspire.</p>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div id="footer-container">
+              <div class="contact-form">
+                <h2>Contact <span style="color: var(--accent-primary);">Luminas</span></h2>
+              <form class="contact-form">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required></textarea>
+
+                  <button type="submit" class="button">Send Message</button>
+              </form>
+              </div>
+              <div class="social-media">
+                <h2>Follow <span style="color: var(--accent-primary);">Us</span></h2>
+                <ul class="social-links">
+                  <li class="social-item" href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon> Facebook</li>
+                  <li class="social-item" href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon> Twitter</li>
+                  <li class="social-item" href="#"><ion-icon class="icon" name="logo-tiktok"></ion-icon> TikTok</li>
+                  <li class="social-item" href="#"><ion-icon class="icon" name="logo-instagram" alt="Instagram"></ion-icon> Instagram</li>
+                </ul>
+              </div>
+              <div id="terms-conditions">
+                <h2>Legal</h2>
+                <div class="footer-links">
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms of Service</a>
+                  <a href="#">Help Center</a>
+                </div>
+              </div>
+            </div>
+            <p>&copy; 2025 Luminas. All rights reserved.</p>
+        </section>
+    </main>
+    <script src="index.js" defer></script>
+</body>
+</html>
