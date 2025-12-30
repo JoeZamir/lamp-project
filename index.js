@@ -44,7 +44,7 @@ const products = [
   {
     id: 1,
     name: "Brass Bedside Lamp",
-    price: 249,
+    price: 695,
     categories: ["bedside lamps", "brass finish", "modern design"],
     images: {
       day: "./assets/lamps/bed-lamp-day.webp",
@@ -54,7 +54,7 @@ const products = [
   {
     id: 2,
     name: "Elegant Desk Reading Lamp",
-    price: 499,
+    price: 1295,
     categories: ["desk lamps", "reading lamps", "elegant design", "adjustable"],
     images: {
       day: "./assets/lamps/reading-lamp-day.webp",
@@ -64,7 +64,7 @@ const products = [
   {
     id: 3,
     name: "Morrocan Handcrafted Floor Lantern",
-    price: 499,
+    price: 895,
     categories: ["cultural", "handcrafted", "floor lamps", "moroccan style"],
     images: {
       day: "./assets/lamps/morrocan-handcrafted-day.jpg",
@@ -74,7 +74,7 @@ const products = [
   {
     id: 4,
     name: "Japanese Washi Paper Lamp",
-    price: 499,
+    price: 1295,
     categories: ["zen decor", "washi paper", "japanese style", "eco-friendly"],
     images: {
       day: "./assets/lamps/washi-paper-day.jpg",
@@ -84,7 +84,7 @@ const products = [
   {
     id: 5,
     name: "Mid-Century Modern Swing Arm Lamp",
-    price: 499,
+    price: 795,
     categories: ["vintage", "mid-century", "swing arm"],
     images: {
       day: "./assets/lamps/vintage-day.jpg",
@@ -94,17 +94,17 @@ const products = [
   {
     id: 6,
     name: "Crystal Chandelier Table Lamp",
-    price: 499,
-    categories: ["luxury", "crystal"],
+    price: 3495,
+    categories: ["luxury", "crystal", "chandelier", "table lamp"],
     images: {
       day: "./assets/lamps/crystal-chandelier-day.jpg",
       night: "./assets/lamps/crystal-chandelier-night.jpg",
     },
   },
   {
-    id: 6,
+    id: 7,
     name: "Sustainable Bamboo LED Lamp",
-    price: 499,
+    price: 1195,
     categories: ["eco-luxury", "bamboo", "sustainable", "led"],
     images: {
       day: "./assets/lamps/bamboo-day.jpg",
