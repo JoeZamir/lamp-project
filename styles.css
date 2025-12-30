@@ -411,7 +411,7 @@ nav a:hover {
   padding: 60px 20px;
   background: var(--bg-secondary);
 }
-.about.container {
+.about-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -424,7 +424,7 @@ nav a:hover {
   border-radius: 10px;
   align-self: flex-start;
 }
-.about.container p {
+.about-container p {
   width: 50%;
   text-align: left;
   font-size: 1.1em;
