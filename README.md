@@ -49,6 +49,10 @@ This approach:
 - Scales cleanly as product count grows
 
 ---
+## UI Challenges
+One challenge I faced is finding identical images of both night and day backgrounds lamps. I opted to generate and iterate images between day and night using AI generation technologies. While the images look almost identical, the images have slight differences that affect how the image changes transition to and fro day and night.
+
+---
 
 ## Product Data Model
 
